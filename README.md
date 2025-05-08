@@ -25,10 +25,11 @@ This repository contains a Jupyter Notebook (`ML_project_3.ipynb`) and a project
    ```bash
    git clone <repository_url>
    cd <repository_folder>
-python3 -m venv venv
-source venv/bin/activate   # macOS/Linux
-venv\Scripts\activate      # Windows
-   '''bash
+
+   python3 -m venv venv
+   source venv/bin/activate   # macOS/Linux
+   venv\Scripts\activate      # Windows
+
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost tensorflow requests
 
 ## Usage
