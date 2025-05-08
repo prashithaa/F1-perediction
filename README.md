@@ -33,16 +33,25 @@ This repository contains a Jupyter Notebook (`ML_project_3.ipynb`) and a project
 2.pip install pandas numpy matplotlib seaborn scikit-learn xgboost tensorflow requests
 
 ## Usage
+Open the notebook:
 
-1.Open the notebook:
-2.jupyter notebook ML_project_3.ipynb
-3.Run cells in order to:
-   Scrape data from the Ergast API for specified seasons
-   Preprocess and clean the dataset
-   Engineer features and split into training and test sets
-   Train Random Forest, XGBoost, and Neural Network models
-   Evaluate and visualize model performance
-   Adjust parameters (e.g., seasons, model hyperparameters) at the top of each section as needed.
+jupyter notebook ML_project_3.ipynb
+
+Run cells in order to:
+
+Scrape data from the Ergast API for specified seasons
+
+Preprocess and clean the dataset
+
+Engineer features and split into training and test sets
+
+Train Random Forest, XGBoost, and Neural Network models
+
+Evaluate and visualize model performance
+
+Adjust parameters (e.g., seasons, model hyperparameters) at the top of each section as needed.
+
+
 
 ## Data Collection
 
