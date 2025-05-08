@@ -31,7 +31,7 @@ venv\Scripts\activate      # Windows
 
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost tensorflow requests
 
-##Usage
+## Usage
 
 Open the notebook:
 jupyter notebook ML_project_3.ipynb
@@ -43,32 +43,34 @@ Train Random Forest, XGBoost, and Neural Network models
 Evaluate and visualize model performance
 Adjust parameters (e.g., seasons, model hyperparameters) at the top of each section as needed.
 
-##Data Collection
+## Data Collection
 
 Uses the Ergast Developer API to fetch historical race data, qualifying results, driver standings, and constructor standings.
 Implements robust error handling and logging for API requests.
 
-##Data Preprocessing
+## Data Preprocessing
 
 Cleans raw data by handling missing values, converting types, and merging tables.
 Engineers features such as qualifying position, driver experience, and constructor performance metrics.
 
-##Model Training
+## Model Training
 
 Builds a scikit-learn pipeline for each model:
 Random Forest Regressor
 XGBoost Regressor
 Keras Neural Network
 Includes grid search for hyperparameter tuning.
-Evaluation
+
+## Evaluation
 
 Compares models using RMSE and MAE on the test set.
 Visualizes predictions vs actual positions.
-Report
+
+## Report
 
 Detailed methodology, results, and discussion are available in report.pdf.
 
-##Dependencies
+## Dependencies
 
 Python 3.7+
 pandas
